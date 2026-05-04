@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #141414;
+  --ink: #E4E3E0;
+  --line: #333333;
+  --f-mono: 'JetBrains Mono', 'Courier New', Courier, monospace;
+  --f-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-sans);
+}
+
+.data-row {
+  display: grid;
+  grid-template-columns: 40px 1.5fr 1fr 1fr;
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.data-row:hover {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.col-header {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-size: 11px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.data-value {
+  font-family: var(--f-mono);
+  letter-spacing: -0.02em;
+}
+
+.panel {
+  background: #1c1c1c;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
