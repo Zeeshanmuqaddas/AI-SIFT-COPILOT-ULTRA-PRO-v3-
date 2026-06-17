@@ -1,3 +1,7 @@
+AI SIFT COPILOT ULTRA PRO (v3) is a multi-agent cybersecurity system built with React, TypeScript, and Google GenAI SDK. It analyzes security logs through specialized AI agents and generates a structured forensic report with timeline and threat correlation.
+
+
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
